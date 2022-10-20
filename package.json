@@ -1,0 +1,26 @@
+{
+  "name": "image-to-hex-generator",
+  "version": "1.0.0",
+  "description": "A node.js project to convert color swatch images to a list of hex codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solorzke/image-to-hex-generator.git"
+  },
+  "author": "Kevin Solorzano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solorzke/image-to-hex-generator/issues"
+  },
+  "homepage": "https://github.com/solorzke/image-to-hex-generator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "get-pixels": "^3.3.3",
+    "rgb-hex": "^4.0.0"
+  }
+}
